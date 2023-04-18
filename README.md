@@ -13,6 +13,11 @@ People always have been insecure about the risks crowdfunding platforms come wit
 We are using Blockchain technology for crowdfunding because it offers several benefits which traditional crowdfunding methods do not provide.blockchain technology allows for the creation of decentralized crowdfunding platforms that can operate without intermediaries such as banks or other financial institutions. This means that funds can be raised and distributed directly between individuals, without the need for a third party to manage the process.Secondly, Blockchain technology provides a high degree of transparency and accountability. Transactions on a blockchain are recorded and cannot be altered, ensuring that all contributions to a crowdfunding campaign are visible to everyone on the network. This creates a sense of trust among participants involved.
 We are making use of smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. Smart contracts can be used to automate the process, ensuring that funds are only released when certain conditions are met.
 
+## Extra Features
+Social Media Integration: Users can share our campaigns/donations with others using any social media apps like Facebook,Twitter,Linkedin and Whatsapp.
+User Dashboard: Users can update their profile using the dashboard directly and can view campaigns etc.
+Security: For enhanced security, we have used metamask wallet.
+
 ## Future Scope
 
 Blockchain crowdfunding platforms have already shown great potential in disrupting the traditional methods of fundraising.
