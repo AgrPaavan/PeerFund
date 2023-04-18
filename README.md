@@ -11,6 +11,7 @@ People always have been insecure about the risks crowdfunding platforms come wit
 ## Our Approach/Solution
 
 We are using Blockchain technology for crowdfunding because it offers several benefits which traditional crowdfunding methods do not provide.blockchain technology allows for the creation of decentralized crowdfunding platforms that can operate without intermediaries such as banks or other financial institutions. This means that funds can be raised and distributed directly between individuals, without the need for a third party to manage the process.Secondly, Blockchain technology provides a high degree of transparency and accountability. Transactions on a blockchain are recorded and cannot be altered, ensuring that all contributions to a crowdfunding campaign are visible to everyone on the network. This creates a sense of trust among participants involved.
+
 We are making use of smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. Smart contracts can be used to automate the process, ensuring that funds are only released when certain conditions are met.
 
 ## Extra Features
@@ -33,6 +34,15 @@ some potential areas of growth and development for our blockchain crowdfunding a
 ---
 
 Ths smart contract has been deployed on 5irechain's EVM testnet. It can be viewed [here](https://explorer.5ire.network/address/0x1f4387dd4bc2f6E0cd673E9e6C8f1Ee1d72D3b64).
+
+To use the platform, users will have to add 5irechain network to their metamask for which the details can be found below. After adding the network, they must go to the [faucet](https://explorer.5ire.network/faucet) to get some 5IRE which can then be used to interact with the platform.
+
+| Network Name       | 5ireChain                          |
+| ------------------ | ---------------------------------- |
+| RPC URL            | <https://rpc-testnet.5ire.network> |
+| Chain ID           | 997                                |
+| Currency Symbol    | 5ire                               |
+| Block explorer URL | <https://explorer.5ire.network>    |
 
 ---
 
