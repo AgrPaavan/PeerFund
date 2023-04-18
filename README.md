@@ -96,3 +96,9 @@ To use the platform, users will have to add 5irechain network to their metamask 
 1. `cd` into the server directory
 2. Run `npm install`
 3. Run `node index.js` to start the server
+
+# 🤝 Contributors
+
+<a href="https://github.com/AgrPaavan/PeerFund/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=agrpaavan/peerfund" />
+</a>
