@@ -1,6 +1,8 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
+import Dashboard from "../components/Dashboard";
+import Sidenav from "../components/Sidenav";
 
 const CreateProfile = () => {
   const [name, setName] = useState("");

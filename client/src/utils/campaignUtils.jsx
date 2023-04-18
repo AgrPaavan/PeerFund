@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
-import address from "../abi/address.json";
 import abi from "../abi/Campaigns.json";
+import address from "../abi/address.json";
 import { getGlobalState, setGlobalState } from "../store";
 
 const { ethereum } = window;
@@ -30,7 +30,7 @@ const createCampaign = async ({
   expiresOn,
 }) => {
   try {
-    if (!ethereum) return alert("Please install metamask");
+    if (!ethereum) return alert("Please install emtamask");
 
     const contract = await getContract();
     goal = ethers.utils.parseEther(goal);

@@ -16,7 +16,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     waitConfirmations: network.config.blockConfirmations || 1,
   });
 
-  const address = JSON.stringify({ address: contract.address }, null, 4);
+  const address = await JSON.stringify({ address: contract.address }, null, 4);
   fs.writeFile(
     "../client/src/abi/address.json",
     address,

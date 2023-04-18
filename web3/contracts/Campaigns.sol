@@ -25,7 +25,7 @@ contract Campaigns {
 
     struct statsStruct {
         uint256 totalCampaigns;
-        uint256 totalBackers;
+        uint256 totalBackings;
         uint256 totalDonations;
     }
 
@@ -140,7 +140,7 @@ contract Campaigns {
         require(campaignExists[id], "Campaign not found");
         require(campaigns[id].status == statusEnum.OPEN, "Campaign closed");
 
-        stats.totalBackers += 1;
+        stats.totalBackings += 1;
         stats.totalDonations += msg.value;
         campaigns[id].raised += msg.value;
         campaigns[id].backers += 1;
@@ -172,7 +172,7 @@ contract Campaigns {
             backers[id][i].timestamp = block.timestamp;
             payTo(_backer, _contribution);
 
-            stats.totalBackers -= 1;
+            stats.totalBackings -= 1;
             stats.totalDonations -= 1;
         }
     }
@@ -187,7 +187,7 @@ contract Campaigns {
 
     function payTo(address to, uint256 amount) internal {
         (bool success, ) = payable(to).call{value: amount}("");
-        require(success, "Refund Failed!");
+        require(success, "Failed!");
     }
 
     function getCampaign(uint id) public view returns (campaignStruct memory) {
