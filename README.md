@@ -14,6 +14,7 @@ We are using Blockchain technology for crowdfunding because it offers several be
 We are making use of smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. Smart contracts can be used to automate the process, ensuring that funds are only released when certain conditions are met.
 
 ## Extra Features
+
 Social Media Integration: Users can share our campaigns/donations with others using any social media apps like Facebook,Twitter,Linkedin and Whatsapp.
 User Dashboard: Users can update their profile using the dashboard directly and can view campaigns etc.
 Security: For enhanced security, we have used metamask wallet.
@@ -27,7 +28,16 @@ some potential areas of growth and development for our blockchain crowdfunding a
 2. As our platform continue to incorporate smart contracts, it can automate many of the processes involved in fundraising, reducing the need for intermediaries and increasing efficiency.
 3. Our project can be extended to enable cross-border fundraising, allowing startups and organizations to tap into a global pool of investors and supporters, and also for charity works throughout the world in matters of human development.
 
+## Smart Contract Deployment
+
+---
+
+Ths smart contract has been deployed on 5irechain's EVM testnet. It can be viewed [here](https://explorer.5ire.network/address/0x1f4387dd4bc2f6E0cd673E9e6C8f1Ee1d72D3b64).
+
+---
+
 ## Demo
+
 <h1 align="center">
   <img src="./assets/landing2.png" alt="" style="border-radius: 20px;"/>
   <img src="./assets/add donation2.png" alt="" style="border-radius: 20px;"/>
